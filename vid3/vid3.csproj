@@ -194,6 +194,38 @@
     <Compile Include="Migrations\202010090105357_ApplyAnnotationsToCustomerName.Designer.cs">
       <DependentUpon>202010090105357_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202010090239034_AddNameToMembershipType.cs" />
+    <Compile Include="Migrations\202010090239034_AddNameToMembershipType.Designer.cs">
+      <DependentUpon>202010090239034_AddNameToMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010090239570_UpdateMembershipTypeTableNames.cs" />
+    <Compile Include="Migrations\202010090239570_UpdateMembershipTypeTableNames.Designer.cs">
+      <DependentUpon>202010090239570_UpdateMembershipTypeTableNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010090251293_AddBirthdateToCustomer.cs" />
+    <Compile Include="Migrations\202010090251293_AddBirthdateToCustomer.Designer.cs">
+      <DependentUpon>202010090251293_AddBirthdateToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010090254161_AddBirthdateToCustomer1.cs" />
+    <Compile Include="Migrations\202010090254161_AddBirthdateToCustomer1.Designer.cs">
+      <DependentUpon>202010090254161_AddBirthdateToCustomer1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010090255557_UpdateBirthdateToCustomers.cs" />
+    <Compile Include="Migrations\202010090255557_UpdateBirthdateToCustomers.Designer.cs">
+      <DependentUpon>202010090255557_UpdateBirthdateToCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010090319408_MakeBirthdateNullible.cs" />
+    <Compile Include="Migrations\202010090319408_MakeBirthdateNullible.Designer.cs">
+      <DependentUpon>202010090319408_MakeBirthdateNullible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010091424239_DropBirthDateFromCustomers.cs" />
+    <Compile Include="Migrations\202010091424239_DropBirthDateFromCustomers.Designer.cs">
+      <DependentUpon>202010091424239_DropBirthDateFromCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010091532317_CheckCustomerTable.cs" />
+    <Compile Include="Migrations\202010091532317_CheckCustomerTable.Designer.cs">
+      <DependentUpon>202010091532317_CheckCustomerTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -299,6 +331,30 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202010090105357_ApplyAnnotationsToCustomerName.resx">
       <DependentUpon>202010090105357_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010090239034_AddNameToMembershipType.resx">
+      <DependentUpon>202010090239034_AddNameToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010090239570_UpdateMembershipTypeTableNames.resx">
+      <DependentUpon>202010090239570_UpdateMembershipTypeTableNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010090251293_AddBirthdateToCustomer.resx">
+      <DependentUpon>202010090251293_AddBirthdateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010090254161_AddBirthdateToCustomer1.resx">
+      <DependentUpon>202010090254161_AddBirthdateToCustomer1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010090255557_UpdateBirthdateToCustomers.resx">
+      <DependentUpon>202010090255557_UpdateBirthdateToCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010090319408_MakeBirthdateNullible.resx">
+      <DependentUpon>202010090319408_MakeBirthdateNullible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010091424239_DropBirthDateFromCustomers.resx">
+      <DependentUpon>202010091424239_DropBirthDateFromCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010091532317_CheckCustomerTable.resx">
+      <DependentUpon>202010091532317_CheckCustomerTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
